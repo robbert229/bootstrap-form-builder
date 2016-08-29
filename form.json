@@ -1,0 +1,258 @@
+{
+    "method":"post",
+    "action":"/free-application",
+    "fields":[
+        {
+            "name":"property",
+            "type":"text",
+            "label":"Property Applying For?",
+            "required":true
+        },
+        {
+            "name":"phone",
+            "type":"tel",
+            "label":"Phone",
+            "required":true
+        },
+        {
+            "name":"texting-phone",
+            "type":"tel",
+            "label":"What Is Your Telephone Numbere Where You Can Recieve Text Messages?",
+            "required":false
+        },
+        {
+            "name":"first_name",
+            "type:":"text",
+            "label":"First Name",
+            "required":true
+        },
+        {
+            "name":"last_name",
+            "type":"text",
+            "label":"Last Name",
+            "required":true
+        },
+        {
+            "name":"email",
+            "type":"email",
+            "label":"Email Address",
+            "required":true
+        },
+        {
+            "name":"ssn",
+            "type":"text",
+            "label":"Social Security Number",
+            "required":true
+        },
+        {
+            "name":"drivers-license",
+            "type":"text",
+            "label":"Drivers License Number (and State of Issuance)",
+            "required":true
+        },
+        {
+            "name":"significant-other-name",
+            "type":"text",
+            "label":"Name Of Spouse/Significant Other/Partner (Please Submit Separate Application For That Individual)",
+            "required":true
+        },
+        {
+            "name":"minors",
+            "type":"textarea",
+            "label":"Other Proposed Occupants Under 18 Years Of Age",
+            "required":false
+        },
+        {
+            "name":"pets",
+            "type":"text",
+            "label":"How Many Pets Do You Have And Do You Wish To Have The Pets At The Property?",
+            "required":false
+        },
+        {
+            "name":"current-residence",
+            "type":"textarea",
+            "label":"Current Residential Address (To Include Street, City, State & Zip) ",
+            "required":true
+        },
+        {
+            "name":"current-landlord-name",
+            "type":"text",
+            "label":"Current Landlord's Name",
+            "required":true
+        },
+        {
+            "name":"current-landlord-phone",
+            "type":"tel",
+            "label":"Current Landlord's Telephone Number",
+            "required":true
+        },
+        {
+            "name":"current-rent",
+            "type":"number",
+            "label":"Rent That You Currently Pay To Your Landlord",
+            "required":true
+        },
+        {
+            "name":"date-moved-in",
+            "type":"date",
+            "label":"Date You Moved Into Your Current Residence",
+            "required":true
+        },
+        {
+            "name":"date-moved-out",
+            "type":"date",
+            "label":"Date You Moved Out Of Your Current Residence",
+            "required":false
+        },
+        {
+            "name":"current-security-deposit",
+            "type":"number",
+            "label":"Current Security Deposit Amount",
+            "required":false
+        },
+        {
+            "name":"prior-rental-address",
+            "type":"textarea",
+            "label":"Prior Rental Address (to Include Street, City, State & Zip",
+            "required":true
+        },
+        {
+            "name":"prior-landlord-name",
+            "type":"text",
+            "label":"Prior Landlord's Name",
+            "required":true
+        },
+        {
+            "name":"prior-landlord-phone",
+            "type":"tel",
+            "label":"Prior Landlord's Telephone Number",
+            "required":true
+        },
+        {
+            "name":"prior-reason-leave",
+            "type":"textarea",
+            "label":"Why Did You Move Out Of Your Prior Residence",
+            "required":true
+        },
+        {
+            "name":"current-employer",
+            "type":"textarea",
+            "label": "Current Employer, Address, Telephone Number, Position, Hourly Wage And Supervisor",
+            "required":true
+        },
+        {
+            "name":"current-employer-start-date",
+            "type":"date",
+            "label":"When Did You First Start Working For This Employer",
+            "required":true
+        },
+        {
+            "name":"provable-income",
+            "type":"number",
+            "label":"How Much Money Do You Earn Each Month That You Can Prove Or Document",
+            "required":true
+        },
+        {
+            "name":"prior-employer",
+            "type":"textarea",
+            "label":"Prior Employer, Address, Telephone Number, Position, Hourly Wage And Supervisor",
+            "required":true   
+        },
+        {
+            "name":"alternative-income",
+            "type":"textarea",
+            "label":"If Not Employed Then Please List Your Monthly Income, How Much Receive And Any Other Useful Information",
+            "required":false
+        },
+        {
+            "name":"bank-name",
+            "type":"textarea",
+            "label":"Name Of Your Current Bank, It Location And Telephone Number",
+            "required":false
+        },
+        {
+            "name":"bank-checkings-or-savings-account",
+            "type":"text",
+            "label":"Current Checking Or Saving Bank Account Numbers",
+            "required":false
+        },
+        {
+            "name":"vehicles",
+            "type":"textarea",
+            "label":"How Many Vehicles Do You Own And Their Make, Model, Color And License Number",
+            "required":false
+        },
+        {
+            "name":"history-bankruptcy",
+            "type":"textarea",
+            "label":"If You Have Declared Bankruptcy In The Past Ten Years Then Please State The Year, State Of The Bankruptcy And The Reason Why You Declared",
+            "required":false
+        },
+        {
+            "name":"history-past-eviction",
+            "type":"textarea",
+            "label":"Have You Ever Been Evicted? If So Then Please Explain The Reason Why You Were Evicted",
+            "required":true
+        },
+        {
+            "name":"history-late-on-rent",
+            "type":"textarea",
+            "label":"Have You Ever Been Late On Paying Rent? If So Then Please Explain The Reason Why You Were Late Paying Rent",
+            "required":true
+        },
+        {
+            "name":"history-landlord-disputes",
+            "type":"textarea",
+            "label":"Have You Ever Had Any Issues Or Disputes With Any Landlord? If So Then Please Explain The Reasons",
+            "required":true
+        },
+        {
+            "name":"history-non-rent-notices",
+            "type":"textarea",
+            "label":"Have You Ever Received From A Landlord Any Other Notices Not Related To Rent? ",
+            "required":true
+        },
+        {
+            "name":"emergency-contact",
+            "type":"textarea",
+            "label":"Who Is Your Emergency Contact And Their Telephone Number?",
+            "required":true
+        },
+        {
+            "name":"history-charged-crime",
+            "label":"Have You Ever Been Charged With Any Crime? If So Then Please Explain The Details",
+            "type":"textarea",
+            "required":true
+        },
+        {
+            "name":"history-convicted-crime",
+            "label":"Have You Ever Been Convicted Of Any Crime? If So Then Please Explain The Details",
+            "type":"textarea",
+            "required":true
+        },
+        {
+            "name":"move-deadline",
+            "label":"Is There A Date Deadline By Which You Must Move?",
+            "type":"textarea",
+            "required":true
+        },
+        {
+            "name":"reason-for-moving",
+            "label":"Why Do You Want To Move Into This Property? ",
+            "type":"textarea",
+            "required":true
+        },
+        {
+            "name":"misc",
+            "label":"Is There Anything Else We Need To Know In Order To Properly Review Your Application? ",
+            "type":"textarea",
+            "required":true
+        },
+        {
+            "name":"agreement",
+            "label":"Authorizations",
+            "type":"textarea",
+            "placeholder":"1. All applicants are required to complete an \"Application to Rent.\" As part of the tenant screening process you authorize the Rowley Family LLC dba AJJ Property Management to obtain a current credit report, criminal background check, conduct background checks and other information necessary to verify all information on this application. \n\n 2. By signing and submitting this application you expressly consent to use of electronic records for this transaction and will never withdraw your consent for use of electronic records. Please read this Federal ESIGN Disclosure and Consent carefully and keep a copy for your records. The following disclosures are required by the federal Electronic Signatures in Global and National Commerce Act (“ESIGN”). They are necessary to submit your application electronically; you can record your consent to the ESIGN disclosures by signing below. By signing below, you are consenting to receive the following disclosures, notices, terms and conditions, and other documents and all changes to the disclosures, notices, etc. electronically. In order to submit and electronic application and to access, receive and retain the disclosures, notices, etc. you must provide at your own expense an Internet connected device that is compatible with rental application deployed at the time of access. Your device must meet the minimum requirements outlined below. You also confirm that your device will meet these specifications and requirements and will permit you to access and retain the disclosures and notices electronically each time you access and use the rental application. You can also contact us in any of the ways described in the preceding paragraph to withdraw your consent to receive any future disclosures, notices, terms and conditions, and other documents electronically. If you withdraw your consent, we will cease reviewing your application. Consent by signing below, you consent to the electronic delivery of the disclosures, notices, terms and conditions, other documents, and any future changes. You also agree that the Rowley Family LLC does not need to provide you with an additional paper (non-electronic) copy of the disclosures, notices, terms and conditions, and other documents, and any future changes, unless specifically requested. \n\n 3. I declare that the information given on this application to be true under penalty of perjury under the laws of the State of Washington submitted in the City of Spokane, Spokane County, State of Washington."
+        }
+    ]
+}
